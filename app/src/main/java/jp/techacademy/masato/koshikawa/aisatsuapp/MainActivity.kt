@@ -1,14 +1,11 @@
 package jp.techacademy.masato.koshikawa.aisatsuapp
 
 import android.app.TimePickerDialog
-import android.icu.util.Calendar
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
-import java.sql.Time
-import java.text.SimpleDateFormat
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
